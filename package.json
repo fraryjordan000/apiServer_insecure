@@ -1,14 +1,24 @@
 {
-  "name": "Server",
+  "name": "server",
   "version": "0.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraryjordan000/apiServer_insecure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fraryjordan000/apiServer_insecure/issues"
+  },
+  "homepage": "https://github.com/fraryjordan000/apiServer_insecure#readme",
+  "description": ""
 }
