@@ -18,6 +18,6 @@ else
     echo "Server up"
 fi
 
-sleep 30
+sleep 3
 
 done
