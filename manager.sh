@@ -10,9 +10,9 @@ echo "Server Manager Started"
 while true
 do
 
-if ! nc -vz 127.0.0.1 3000 &> /dev/null; then
+if ! nc -vz 127.0.0.1 80 &> /dev/null; then
     echo "Server down"
-    nohup nodejs app.js &>/dev/null &
+    nohup node app.js &>/dev/null &
     echo "Server Down | $(date)" >> serverlog.txt
 else
     echo "Server up"
